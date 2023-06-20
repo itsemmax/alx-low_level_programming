@@ -3,7 +3,7 @@
 /*
  * main - entry point of the program
  *
- * description: This function is the entry point of the program. It prints 
+ * description: This function is the entry point of the program. It prints
  *              the alphabet in lowercase using the print_alphabet function
  *              and then prints a newline character
  *
