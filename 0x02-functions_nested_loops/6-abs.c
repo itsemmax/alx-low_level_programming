@@ -1,7 +1,7 @@
 #include"main.h"
 /**
   *  _abs - computes the absolute value of an integer
-  *
+  * and return n
   *@n: print from this number
   *
   *return :n if @n is greater than zero,
