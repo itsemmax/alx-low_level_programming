@@ -2,7 +2,7 @@
 /**
  * _abs - Computes the absolute value of an integer
  *
- * Description: This function takes an integer as input 
+ * Description: This function takes an integer as input
  *              and returns its absolute value.
  *              If the number is negative
  *              it return the negation of the number
