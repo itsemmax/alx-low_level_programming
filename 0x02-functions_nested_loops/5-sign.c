@@ -3,10 +3,13 @@
 /**
  * print_sign - Prints the sign of a number
  *
- * Description: This function takes an integer as input and prints the sign of
- *              the number. If the number is greater than zero, it returns 1
- *              and prints a plus sign (+). If the number is zero, it returns 0
- *              and prints a zero digit (0). If the number is less than zero, it
+ * Description: This function takes an integer as input
+ *              and prints the number.
+ *              If the number is greater than zero, it returns 1
+ *              and prints a plus sign (+). 
+ *              If the number is zero, it returns 0
+ *              and prints a zero digit (0). 
+ *              If the number is less than zero, it
  *              returns -1 and prints a minus sign (-).
  *
  * @n: The number to check the sign of
