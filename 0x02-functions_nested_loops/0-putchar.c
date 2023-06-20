@@ -11,17 +11,18 @@
  */
 int main(void)
 {
-    char *str = "_putchar";  /* String to be printed */
-    int i = 0;              /* Loop counter */
+char *str = "_putchar";  /* String to be printed */
+int i = 0;              /* Loop counter */
 
-    while (str[i])
-    {
-        _putchar(str[i]);   /* Print each character of the string */
-        i++;
-    }
+while (str[i])
+{
+_putchar(str[i]);   /* Print each character of the string */
 
-    _putchar('\n');         /* Print a newline character */
+i++;
+}
 
-    return (0);
+_putchar('\n');         /* Print a newline character */
+
+return (0);
 }
 
