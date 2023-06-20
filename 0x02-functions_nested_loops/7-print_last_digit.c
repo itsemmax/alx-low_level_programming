@@ -4,13 +4,14 @@
  * print_last_digit - prints the last digit
  * of a number and return n%10
  *
- *@n: the number to work with 
+ *@n: the number to work with
  *
  *Return: the value of the last digist
  */
-int print_last_digit(int n )
+int print_last_digit(int n)
 {
-	int sign ;
+	int sign;
+
 	sign = 1;
 
 	if (n < 0)
@@ -18,5 +19,5 @@ int print_last_digit(int n )
 		sign = -1;
 	}
 		_putchar(((n % 10) * sign) + '0');
-		return((n % 10) * sign);
+		return ((n % 10) * sign);
 }
