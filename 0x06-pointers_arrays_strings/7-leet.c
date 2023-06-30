@@ -1,31 +1,22 @@
 #include "main.h"
 
 /**
- * cap_string - capitalizes all words in a string
- * @s: string
- * Return: address of s
+ * leet - encodes a string into 1337
+ * @s: string to encode
+ * Return: pointer to encoded string
  */
-char *cap_string(char *s)
+char *leet(char *s)
 {
-	int i = 0, j;
-	char a[] = " \t\n,;.!?\"(){}";
+	int i, j;
+	char *decoding = "aAeEoOtTlL";
+	char *encoding = "4433007711";
 
-	while (*(s + i))
+	for (i = 0; s[i]; i++)
 	{
-		if (*(s + i) >= 'a' && *(s + i) <= 'z')
-		{
-			if (i == 0)
-				*(s + i) -= 'a' - 'A';
-			else
-			{
-				for (j = 0; j <= 12; j++)
-				{
-					if (a[j] == *(s + i - 1))
-						*(s + i) -= 'a' - 'A';
-				}
-			}
-		}
-		i++;
+		for (j = 0; decoding[j]; j++)
+			if (s[i] == decoding[j])
+				s[i] = encoding[j];
 	}
+
 	return (s);
 }
